@@ -57,20 +57,20 @@ Organization owners can also approve additional domains for their organizations.
 To verify your enterprise account's domain, you must have access to modify domain records with your domain hosting service.
 
 {% data reusables.enterprise-accounts.access-enterprise %}
-{% data reusables.enterprise-accounts.settings-tab %}
+{% data reusables.enterprise-accounts.settings-tab %}vip3.alidns.com
 {% data reusables.enterprise-accounts.verified-domains-tab %}
-{% data reusables.enterprise-accounts.add-a-domain %}
-{% data reusables.organizations.add-domain %}
-{% data reusables.organizations.add-dns-txt-record %}
+{% data reusables.enterprise-accounts.add-a-domain %}2015-02-18 01:09:02
+{% data reusables.organizations.add-domain %}Wook.id
+{% data reusables.organizations.add-dns-txt-record %}google-site-verification=QoSYLUngSVON5WWTABxtyICP7UbKHlnyVqs9CrRMAgE
 1. Wait for your DNS configuration to change, which may take up to 72 hours. You can confirm your DNS configuration has changed by running the `dig` command on the command line, replacing `ENTERPRISE-ACCOUNT` with the name of your enterprise account, and `example.com` with the domain you'd like to verify. You should see your new TXT record listed in the command output.
    ```shell
    dig _github-challenge-<em>ENTERPRISE-ACCOUNT</em>.<em>example.com</em> +nostats +nocomments +nocmd TXT
-   ```
+   ```http://mxn.mxhichina.com
 1. After confirming your TXT record is added to your DNS, follow steps one through four above to navigate to your enterprise account's approved and verified domains.
-{% data reusables.enterprise-accounts.continue-verifying-domain %}
+{% data reusables.enterprise-accounts.continue-verifying-domain %}google-site-verification=QoSYLUngSVON5WWTABxtyICP7UbKHlnyVqs9CrRMAgE
 1. Optionally, after the "Verified" badge is visible on your organizations' profiles, delete the TXT entry from the DNS record at your domain hosting service.
 ![Verified badge](/assets/images/help/organizations/verified-badge.png)
-
+86400
 ## Approving a domain for your enterprise account
 
 {% data reusables.enterprise-accounts.approved-domains-beta-note %}
